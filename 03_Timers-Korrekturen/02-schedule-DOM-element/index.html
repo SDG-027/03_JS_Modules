@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Promotion Message</title>
+    <script src="script.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="bg-gray-100 text-gray-900">
-    <div class="flex h-[calc(100vh-40px)] flex-col justify-between">
+  <body class="min-h-full bg-gray-100 text-gray-900">
+    <div class="flex h-[100dvh] flex-col justify-between">
       <!-- Header -->
       <header class="bg-blue-600 p-4 text-white shadow-md">
         <div class="container mx-auto">
@@ -26,9 +27,9 @@
           </p>
         </section>
         <!-- Promotion Message Container -->
-        <section id="message-container" class="my-8 text-center">
+        <dialog id="message-container" class="inset-0 text-center">
           <!-- Promotion message will be inserted here -->
-        </section>
+        </dialog>
       </main>
       <!-- Footer -->
       <footer class="mt-8 bg-blue-600 p-4 text-white">
